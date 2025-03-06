@@ -1,0 +1,81 @@
+#leetcode-to-gfg-popup {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  z-index: 10000;
+  width: 300px;
+}
+
+.popup-content {
+  position: relative;
+}
+
+.container-header {
+  margin-bottom: 1%;
+}
+
+.close-btn {
+  position: absolute;
+  top: -10%;
+  right: -5%;
+  color: black;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.problem-title {
+  color: #000000;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.problem-title:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #2e8c46;
+}
+
+.second-rung {
+  display: flex;
+  gap: 4%;
+  margin-bottom: 1%;
+}
+
+.gfg-logo {
+  width: 25px;
+  height: 25px;
+  margin-top: -0.25%;
+}
+
+.difficulty {
+  color: orange;
+}
+
+.accuracy {
+  color: rgb(84, 83, 83);
+}
+
+.company-tags-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.company-tag {
+  margin-block: 0.7%;
+  margin-inline: 0.3%;
+  padding-inline: 3%;
+  background-color: #3d3d3d;
+  color: white;
+  border-radius: 3px;
+  font-size: 11px;
+}
