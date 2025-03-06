@@ -21,11 +21,5 @@
       "js": ["content.js"],
       "css": ["content.css"]
     }
-  ],
-  "web_accessible_resources": [
-    {
-      "resources": ["icons/gfg_logo.png"],
-      "matches": ["<all_urls>"]
-    }
   ]
 }
