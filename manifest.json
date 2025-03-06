@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "LeetCode to GFG",
   "version": "1.0",
-  "description": "Links LeetCode problems to GFG",
+  "description": "✅ Links LeetCode problems to same or similar problems on GFG",
   "permissions": ["activeTab", "scripting"],
   "action": {
     "default_popup": "popup.html",
