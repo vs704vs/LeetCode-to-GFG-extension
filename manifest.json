@@ -3,7 +3,7 @@
   "name": "LeetCode to GFG",
   "version": "1.0",
   "description": "✅ Links LeetCode problems to same or similar problems on GFG",
-  "permissions": ["activeTab", "scripting"],
+  "permissions": ["activeTab"],
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
