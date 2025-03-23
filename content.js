@@ -27,7 +27,7 @@ async function injectPopup(url) {
                 ? results
                     .map((result) => {
                       let difficultyColor;
-                      if (result.difficulty.toLowerCase() === "easy") {
+                      if (result.difficulty.toLowerCase() === "easy" || result.difficulty.toLowerCase() === "basic") {
                         difficultyColor = "green";
                       } else if (result.difficulty.toLowerCase() === "medium") {
                         difficultyColor = "orange";
